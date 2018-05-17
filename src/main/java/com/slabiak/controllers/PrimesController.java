@@ -21,16 +21,17 @@ public class PrimesController extends HttpServlet {
 
     protected void doGet(final HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        List<Integer> data, sortedData, uniqueData, filteredData;
         ApiService apiService = ApiManager.getClient();
         Call<ApiResponse> call = apiService.getNumbers();
 
         try {
             ApiResponse apiResponse = call.execute().body();
 
-            List<Integer> data = apiResponse.getData();
-            List<Integer> sortedData = PrimesHelper.sortPrimes(data);
-            ArrayList<Integer> uniqueData = PrimesHelper.removeDuplicates(sortedData);
-            ArrayList<Integer> filteredData = PrimesHelper.filterPrimes(uniqueData);
+            data = apiResponse.getData();
+            sortedData = PrimesHelper.sortPrimes(data);
+            uniqueData = PrimesHelper.removeDuplicates(sortedData);
+            filteredData = PrimesHelper.filterPrimes(uniqueData);
 
             request.setAttribute("id", apiResponse.getId());
             request.setAttribute("totalSize", data.size());
@@ -39,9 +40,9 @@ public class PrimesController extends HttpServlet {
             request.getRequestDispatcher("index.jsp").forward(request, response);
 
         } catch (Exception e) {
+
             request.setAttribute("error", e.toString());
             request.getRequestDispatcher("error.jsp").forward(request, response);
         }
-
     }
 }

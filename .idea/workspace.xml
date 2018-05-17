@@ -8,10 +8,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a5bcd807-b77a-4585-b3c5-91e42bafec28" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/slabiak/model/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slabiak/model/ApiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/slabiak/utility/PrimesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slabiak/utility/PrimesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PrimeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimesHelperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PrimeControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestApp/WEB-INF/classes/com/slabiak/controllers/PrimesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestApp/WEB-INF/classes/com/slabiak/controllers/PrimesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestApp/WEB-INF/classes/com/slabiak/service/ApiManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestApp/WEB-INF/classes/com/slabiak/service/ApiManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestApp/WEB-INF/classes/com/slabiak/service/ApiManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestApp/WEB-INF/classes/com/slabiak/service/ApiManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestApp/WEB-INF/classes/com/slabiak/utility/PrimesHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestApp/WEB-INF/classes/com/slabiak/utility/PrimesHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestApp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestApp/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/slabiak/controllers/PrimesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/slabiak/controllers/PrimesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/slabiak/service/ApiManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/slabiak/service/ApiManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/slabiak/service/ApiManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/slabiak/service/ApiManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/slabiak/utility/PrimesHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/slabiak/utility/PrimesHelper.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +41,8 @@
       <file leaf-file-name="PrimesHelperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrimesHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            <state relative-caret-position="171">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#541#550#0" expanded="true" />
@@ -49,23 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="PrimesController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/controllers/PrimesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="93">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimesController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/controllers/PrimesController.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="31" column="69" lean-forward="true" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -85,8 +90,8 @@
       <file leaf-file-name="PrimesHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/utility/PrimesHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#428#437#0" expanded="true" />
@@ -99,8 +104,8 @@
       <file leaf-file-name="ApiManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/service/ApiManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="433">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1060#1541#0" expanded="true" />
@@ -173,14 +178,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/slabiak/utility/PrimeCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/slabiak/controllers/PrimesServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/slabiak/service/ApiManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/slabiak/service/ApiService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/slabiak/controllers/PrimesController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/slabiak/model/ApiResponse.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrimeControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/slabiak/utility/PrimesHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrimesHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slabiak/service/ApiManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slabiak/controllers/PrimesController.java" />
       </list>
     </option>
   </component>
@@ -252,6 +257,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="slabiak" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="slabiak" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="slabiak" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,6 +285,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="slabiak" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RestApp" type="b2602c69:ProjectViewProjectNode" />
@@ -293,9 +323,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.5114943" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -310,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrimesHelperTest.shouldFilterPrimes">
+  <component name="RunManager" selected="JUnit.PrimesHelperTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -501,9 +531,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimesHelperTest" />
         <item itemvalue="JUnit.PrimesHelperTest.shouldFilterPrimes" />
         <item itemvalue="JUnit.PrimesHelperTest.shouldRemoveDuplicate" />
-        <item itemvalue="JUnit.PrimesHelperTest" />
         <item itemvalue="JUnit.PrimeControllerTest" />
       </list>
     </recent_temporary>
@@ -519,7 +549,7 @@
       <option name="presentableId" value="Default" />
       <updated>1526285108303</updated>
       <workItem from="1526285109596" duration="9062000" />
-      <workItem from="1526364455717" duration="41642000" />
+      <workItem from="1526364455717" duration="42904000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1526558875067</created>
@@ -528,25 +558,17 @@
       <option name="project" value="LOCAL" />
       <updated>1526558875067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="more tests added, optimized imports">
+      <created>1526563499944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526563499944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimesHelperTest_shouldRemoveDuplicate - 2018.05.17 at 15h 06m 53s.xml">
-      <configuration name="PrimesHelperTest.shouldRemoveDuplicate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimesHelperTest_shouldRemoveDuplicate - 2018.05.17 at 15h 07m 30s.xml">
-      <configuration name="PrimesHelperTest.shouldRemoveDuplicate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimesHelperTest_shouldRemoveDuplicate - 2018.05.17 at 15h 07m 56s.xml">
-      <configuration name="PrimesHelperTest.shouldRemoveDuplicate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimesHelperTest_shouldRemoveDuplicate - 2018.05.17 at 15h 08m 30s.xml">
-      <configuration name="PrimesHelperTest.shouldRemoveDuplicate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimesHelperTest_shouldRemoveDuplicate - 2018.05.17 at 15h 18m 51s.xml">
-      <configuration name="PrimesHelperTest.shouldRemoveDuplicate" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimesHelperTest_shouldRemoveDuplicate - 2018.05.17 at 15h 19m 00s.xml">
       <configuration name="PrimesHelperTest.shouldRemoveDuplicate" configurationId="JUnit" />
     </history-entry>
@@ -562,9 +584,24 @@
     <history-entry file="PrimesHelperTest_shouldRemoveDuplicate - 2018.05.17 at 15h 19m 55s.xml">
       <configuration name="PrimesHelperTest.shouldRemoveDuplicate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrimesHelperTest_shouldRemoveDuplicate - 2018.05.17 at 15h 23m 10s.xml">
+      <configuration name="PrimesHelperTest.shouldRemoveDuplicate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimesHelperTest_shouldFilterPrimes - 2018.05.17 at 15h 23m 15s.xml">
+      <configuration name="PrimesHelperTest.shouldFilterPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimesHelperTest_shouldFilterPrimes - 2018.05.17 at 15h 23m 27s.xml">
+      <configuration name="PrimesHelperTest.shouldFilterPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimesHelperTest_shouldFilterPrimes - 2018.05.17 at 15h 23m 49s.xml">
+      <configuration name="PrimesHelperTest.shouldFilterPrimes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimesHelperTest - 2018.05.17 at 15h 32m 19s.xml">
+      <configuration name="PrimesHelperTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50704000" />
+    <option name="totallyTimeSpent" value="51966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -589,9 +626,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32900432" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.18443497" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.18443497" />
       <window_info id="Web" order="2" sideWeight="0.5016129" side_tool="true" visible="true" weight="0.18443497" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -637,7 +674,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="more tests added, optimized imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="more tests added, optimized imports" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -706,23 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/controllers/PrimesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" column="69" lean-forward="true" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -739,15 +760,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="272">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/model/ApiResponse.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/controllers/PrimesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,22 +792,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/service/ApiManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1060#1541#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/utility/PrimesHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#428#437#0" expanded="true" />
@@ -785,10 +804,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/model/ApiResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slabiak/service/ApiManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1060#1541#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrimesHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        <state relative-caret-position="171">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#541#550#0" expanded="true" />
@@ -809,7 +847,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5114943" />
                 <option value="0.5" />
               </list>
             </option>
@@ -818,11 +856,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (RestApp)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5114943" />
               </list>
             </option>
           </splitter-proportions>
@@ -833,7 +871,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5114943" />
               </list>
             </option>
           </splitter-proportions>
@@ -845,7 +883,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5114943" />
               </list>
             </option>
           </splitter-proportions>
@@ -865,11 +903,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>javax.servlet:jstl:1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5114943" />
               </list>
             </option>
           </splitter-proportions>
